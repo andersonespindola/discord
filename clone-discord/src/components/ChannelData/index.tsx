@@ -20,13 +20,13 @@ const ChannelData: React.FC = () => {
       <Messages>
         <ChannelMessage
           author="Anderson Espindola"
-          date="20/10/1997"
+          date="20/10/2020"
           content="Hoje é meu aniversário!"
         />
 
         <ChannelMessage
           author="William"
-          date="20/10/2020"
+          date="21/10/2020"
           content={
             <>
               <Mention>@Anderson</Mention>, partiu jogar um fodinha, sexta fire
@@ -34,13 +34,37 @@ const ChannelData: React.FC = () => {
             </>
           }
           hasMention
-          isBot
         />
 
         <ChannelMessage
           author="Anderson Espindola"
-          date="21/10/1997"
+          date="21/10/2020"
           content="Vamo dale!"
+        />
+
+        <ChannelMessage
+          author="Rudi"
+          date="21/10/2020"
+          content={'Rodolfin aqui! 🐷'}
+          isBot
+        />
+        <ChannelMessage
+          author="Rudi"
+          date="21/10/2020"
+          content={'Rodolfin aqui! 🐷'}
+          isBot
+        />
+        <ChannelMessage
+          author="Rudi"
+          date="21/10/2020"
+          content={'Rodolfin aqui! 🐷'}
+          isBot
+        />
+        <ChannelMessage
+          author="Rudi"
+          date="21/10/2020"
+          content={'Rodolfin aqui! 🐷'}
+          isBot
         />
       </Messages>
       <InputWrapper>
